@@ -12,3 +12,7 @@ Amb el cas de la backup al windows a la rodeta de ajustes ens surt per a descarg
 Primer que tot per a compartir un document haurem de sel·leccionar el següent botó que està situat dalt a la dreta.
 
 ![guia uc1](guiauc1.jpg)
+
+El següent pas serà decidir en qui compartir l’arxiu, escriurem el seu correu i el sel·leccionarem.
+
+![guia uc1](guiauc1.jpg)

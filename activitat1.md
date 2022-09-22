@@ -21,5 +21,5 @@ Seguidament anirem a canviar-li el permís, s’haura de clicar al botó on posa
 
 ![permisos.jpg](permisos.jpg)
 
-###Guia d’instal·lació d’adreces directes als escriptoris dels dos tipus d’usuaris: Administrador/a i usuari/a.
+### Guia d’instal·lació d’adreces directes als escriptoris dels dos tipus d’usuaris: Administrador/a i usuari/a.
 Primer anem a la part superior dreta i entrem a paràmetres.

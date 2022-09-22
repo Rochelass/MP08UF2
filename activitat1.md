@@ -23,3 +23,5 @@ Seguidament anirem a canviar-li el permís, s’haura de clicar al botó on posa
 
 ### Guia d’instal·lació d’adreces directes als escriptoris dels dos tipus d’usuaris: Administrador/a i usuari/a.
 Primer anem a la part superior dreta i entrem a paràmetres.
+![parametres](parametres.jpg)
+

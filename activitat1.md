@@ -16,3 +16,6 @@ Primer que tot per a compartir un document haurem de sel·leccionar el següent 
 El següent pas serà decidir en qui compartir l’arxiu, escriurem el seu correu i el sel·leccionarem.
 
 ![compartir.jpg](compartir.jpg)
+
+Seguidament anirem a canviar-li el permís, s’haura de clicar al botó on posa editor i sel·leccionar el permís que li volguéssim asignar.
+

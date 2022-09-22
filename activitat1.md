@@ -8,3 +8,5 @@ Pensem que és una bona solució ja que implementem l'emmagatzematge al núvol e
 
 ### Guia de creació de les unitats compartides BACKUP i DOCUMENTS on es vegin els permisos assignats a cada tipus d’usuari/a.
 Amb el cas de la backup al windows a la rodeta de ajustes ens surt per a descargar la copia de seguretat en canvi al ubuntu lo que es pot fer es connectar la cuenta de google, i llavors al lloc de les carpetes baix de tot et sortirà un apartat on et surt el correu de la còpia de seguretat, sinó la ultima opció seria passar-ho tot a una carpeta del google drive i descargarla.
+
+Primer que tot per a compartir un document haurem de sel·leccionar el següent botó que està situat dalt a la dreta.

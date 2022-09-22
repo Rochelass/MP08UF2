@@ -26,4 +26,5 @@ Primer anem a la part superior dreta i entrem a paràmetres.
 
 ![parametres](parametres.jpg)
 
-Després entrem a Comptes en línia i afegim el nostre compte de correu electrònic. Depenent del que utilitzem ens sortirà una opció o una altra, simplement tindrem d’iniciar sessió, es fa de la mateixa forma tant en d'administradors com usuaris.
+Després entrem a Comptes en línia i afegim el nostre compte de correu electrònic. 
+Depenent del que utilitzem ens sortirà una opció o una altra, simplement tindrem d’iniciar sessió, es fa de la mateixa forma tant en d'administradors com usuaris.

@@ -20,3 +20,6 @@ El següent pas serà decidir en qui compartir l’arxiu, escriurem el seu corre
 Seguidament anirem a canviar-li el permís, s’haura de clicar al botó on posa editor i sel·leccionar el permís que li volguéssim asignar.
 
 ![permisos.jpg](permisos.jpg)
+
+###Guia d’instal·lació d’adreces directes als escriptoris dels dos tipus d’usuaris: Administrador/a i usuari/a.
+Primer anem a la part superior dreta i entrem a paràmetres.

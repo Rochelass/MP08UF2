@@ -19,3 +19,4 @@ El següent pas serà decidir en qui compartir l’arxiu, escriurem el seu corre
 
 Seguidament anirem a canviar-li el permís, s’haura de clicar al botó on posa editor i sel·leccionar el permís que li volguéssim asignar.
 
+![permisos.jpg](permisos.jpg)

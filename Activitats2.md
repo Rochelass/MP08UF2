@@ -5,10 +5,10 @@ Instalar Owncloud en Ubuntu 22.04 LTS.
 #Instalar Apache:
 Instalam el servidor Apache:
 Per a instal·lar-lo haurem de fer la següent comanda
-# (falta captura) sudo apt install apache2
+### (falta captura) sudo apt install apache2
 
 Seguidament lo que haurem de fer serà desactivar el llistat de directoris del servidor amb la següent comanda:
-# (falta captura) sudo sed -i "s/Options Indexes FollowSymLinks/Options FollowSymLinks/" /etc/apache2/apache2.conf
+### (falta captura) sudo sed -i "s/Options Indexes FollowSymLinks/Options FollowSymLinks/" /etc/apache2/apache2.conf
 
 Instalar MariaDB:
 Instalamos MariaDB:

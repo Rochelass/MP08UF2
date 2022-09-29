@@ -2,7 +2,8 @@
 
 Instalar Owncloud en Ubuntu 22.04 LTS.
 
-#Instalar Apache:
+## Instalar Apache:
+
 Instalam el servidor Apache:
 Per a instal·lar-lo haurem de fer la següent comanda
 ### (falta captura) sudo apt install apache2

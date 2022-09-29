@@ -11,11 +11,7 @@ Per a instal·lar-lo haurem de fer la següent comanda
 
 Seguidament lo que haurem de fer serà desactivar el llistat de directoris del servidor amb la següent comanda:
 
-
-
 ``` (falta captura) sudo sed -i "s/Options Indexes FollowSymLinks/Options FollowSymLinks/" /etc/apache2/apache2.conf ```
-
-
 
 # Instalar MariaDB:
 

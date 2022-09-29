@@ -13,10 +13,10 @@ Seguidament lo que haurem de fer serà desactivar el llistat de directoris del s
 
 ``` (falta captura) sudo sed -i "s/Options Indexes FollowSymLinks/Options FollowSymLinks/" /etc/apache2/apache2.conf ```
 
-Instalar MariaDB:
-Instalamos MariaDB:
+# Instalar MariaDB:
 
-sudo apt-get install mariadb-server mariadb-client -y
+Instalarem MariaDB:
+``` sudo apt-get install mariadb-server mariadb-client -y ```
 Y configuramos la instalación:
 
 sudo mysql_secure_installation

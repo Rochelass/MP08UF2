@@ -86,16 +86,17 @@ Seguidament canviem el propietari i els permisos dels directoris d'owncloud. www
 
 Seguidament passarem a configurar l'Apache
 
-``` sudonano /etc/apache2/sites-available/owncloud.conf
-Debemos dejar un fichero como el siguiente, pero cambiando el ServerName y el ServerAlias por los nombres y alias de nuestro propio dominio.
+``` sudonano /etc/apache2/sites-available/owncloud.conf ```
 
-Instalación owncloud
+Haurem de deixar un ficher com el següent, pero canviem el ServerName i el ServerAlies per los noms i alies del nostre propi dominio.
 
-Habilitamos owncloud y el módulo rewrite:
+Instalació owncloud
 
-sudo a2ensite owncloud.conf
-sudo a2enmod rewrite
-sudo a2enmod headers
+Habilitem owncloud y el módul rewrite:
+
+``` sudo a2ensite owncloud.conf ```
+``` sudo a2enmod rewrite ```
+``` sudo a2enmod headers ```
 sudo a2enmod env
 sudo a2enmod dir
 sudo a2enmod mime

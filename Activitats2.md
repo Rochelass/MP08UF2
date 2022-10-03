@@ -17,49 +17,56 @@ Seguidament lo que haurem de fer serà desactivar el llistat de directoris del s
 
 Instalarem MariaDB:
 ``` sudo apt-get install mariadb-server mariadb-client -y ```
-Y configuramos la instalación:
 
-sudo mysql_secure_installation
-Aquí es interesante:
+I configurem la instalació:
 
-Deshabilitar usuarios anónimos.
-Deshabilitar acceso remoto como root.
-Eliminar las bases de datos de testeo y el acceso a las mismas.
-Actualizar las tablas de privilegios.
-Por último reiniciamos el servidor MariaDB.
+``` sudo mysql_secure_installation ```
 
-sudo systemctl restart mariadb.service` o `sudo service mariadb.service restart
-Crear la base de datos de owncloud:
-Entramos en MariaDB:
+Per últim reiniciem el servidor MariaDB.
 
-sudo mysql -u root -p
-Creamos la base de datos:
+``` sudo systemctl restart mariadb.service` o `sudo service mariadb.service restart ```
 
-CREATE DATABASE owncloud;
-Creamos un usuario llamado ownclouduser con una contraseña que podría ser Admin1234.
+Crear la base de dades de owncloud:
 
-CREATE USER 'ownclouduser'@'localhost' IDENTIFIED BY 'Admin1234';
-Le damos acceso al usuario a la base de datos creada:
+Entrarem en MariaDB:
 
-GRANT ALL ON owncloud.* TO 'ownclouduser'@'localhost' IDENTIFIED BY 'Admin1234' WITH GRANT OPTION;
-Aplicamos los cambios y salimos:
+``` sudo mysql -u root -p ```
 
-FLUSH PRIVILEGES;
-EXIT;
-Instalar PHP y sus módulos necesarios:
-sudo apt-get install software-properties-common -y
-sudo add-apt-repository ppa:ondrej/php
-Actualizamos los paquetes con el repositorio añadido:
+Creem la base de dades:
 
-sudo apt update
-Instalamos PHP y los módulos necesarios:
+``` CREATE DATABASE owncloud; ```
 
-Hemos de tener en cuenta los requisitos de Owncloud antes de instalar los módulos.
+Creem un usuari anomenat ownclouduser amb una contrasenya que podría ser Admin1234.
 
-sudo apt install php7.4 libapache2-mod-php7.4 php7.4-common php7.4-mbstring php7.4-xmlrpc php7.4-soap php7.4-apcu php7.4-smbclient php7.4-ldap php7.4-redis php7.4-gd php7.4-xml php7.4-intl php7.4-json php7.4-imagick php7.4-mysql php7.4-cli php7.4-mcrypt php7.4-ldap php7.4-zip php7.4-curl -y
-Después de la instalación editamos el fichero php.ini y cambiaremos algunos valores:
+``` CREATE USER 'ownclouduser'@'localhost' IDENTIFIED BY 'Admin1234'; ```
 
-sudo nano /etc/php/7.1/apache2/php.ini
+Li donem acces al usuari a la base de dades creada:
+
+``` GRANT ALL ON owncloud.* TO 'ownclouduser'@'localhost' IDENTIFIED BY 'Admin1234' WITH GRANT OPTION; ```
+Apliquem els canvios i sortim:
+
+``` FLUSH PRIVILEGES; ```
+
+``` EXIT; ```
+
+Per a contiunar haurem d'instalar PHP i els seus móduls necessaris:
+
+``` sudo apt-get install software-properties-common -y ```
+
+``` sudo add-apt-repository ppa:ondrej/php ```
+
+Seguidament actualitzarem els paquets amb el repositori afegit:
+
+```sudo apt update ```
+
+Seguidament haurem d'instalamos PHP i els móduls necessaris:
+
+``` sudo apt install php7.4 libapache2-mod-php7.4 php7.4-common php7.4-mbstring php7.4-xmlrpc php7.4-soap php7.4-apcu php7.4-smbclient php7.4-ldap php7.4-redis php7.4-gd php7.4-xml php7.4-intl php7.4-json php7.4-imagick php7.4-mysql php7.4-cli php7.4-mcrypt php7.4-ldap php7.4-zip php7.4-curl -y ```
+
+Després de la instalació editarem el ficher php.ini i cambiarem alguns valors:
+
+``` sudo nano /etc/php/7.1/apache2/php.ini ```
+
 Los valores que hemos de cambiar son los siguientes:
 
 file_uploads = On allow_url_fopen = On memory_limit = 256M upload_max_filesize = 100M display_errors = Off date.timezone = Europe/Madrid

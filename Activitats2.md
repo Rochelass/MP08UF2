@@ -43,6 +43,7 @@ Creem un usuari anomenat ownclouduser amb una contrasenya que podría ser Admin1
 Li donem acces al usuari a la base de dades creada:
 
 ``` GRANT ALL ON owncloud.* TO 'ownclouduser'@'localhost' IDENTIFIED BY 'Admin1234' WITH GRANT OPTION; ```
+
 Apliquem els canvios i sortim:
 
 ``` FLUSH PRIVILEGES; ```
@@ -67,24 +68,25 @@ Després de la instalació editarem el ficher php.ini i cambiarem alguns valors:
 
 ``` sudo nano /etc/php/7.1/apache2/php.ini ```
 
-Los valores que hemos de cambiar son los siguientes:
+Els valors que hem de canviar son els següents:
 
-file_uploads = On allow_url_fopen = On memory_limit = 256M upload_max_filesize = 100M display_errors = Off date.timezone = Europe/Madrid
+``` file_uploads = On allow_url_fopen = On memory_limit = 256M upload_max_filesize = 100M display_errors = Off date.timezone = Europe/Madrid ```
 
-Instalamos Owncloud:
-Descargamos la última versión del programa y descomprimimos los ficheros, además movemos los archivos de Owncloud a "/var/www/html/owncloud".
+Instalem Owncloud:
+Descarguem la última versió del programma y descomprimim els fichers, ademés movem els archius de Owncloud a "/var/www/html/owncloud".
 
-cd /tmp && wget https://download.owncloud.com/server/stable/owncloud-complete-latest.zip
-unzip owncloud-10.0.8.zip
-sudo mv owncloud /var/www/html/owncloud/
-Cambiamos propietario y permisos de los directorios de owncloud. www-data para que los pueda usar Apache, 755 para que los pueda ejecutar y leer cualquier usuario de Linux:
+```cd /tmp && wget https://download.owncloud.com/server/stable/owncloud-complete-latest.zip ```
+``` unzip owncloud-10.0.8.zip ```
+``` sudo mv owncloud /var/www/html/owncloud/ ```
 
-sudo chown -R www-data:www-data /var/www/html/owncloud/
-sudo chmod -R 755 /var/www/html/owncloud/
-Configurar Apache:
-Vamos a configurar Apache:
+Seguidament canviem el propietari i els permisos dels directoris d'owncloud. www-data per a que es puguin usar Apache, 755 per a que es puguin executar i llegir cualsevol usuari de Linux:
 
-sudo nano /etc/apache2/sites-available/owncloud.conf
+``` sudo chown -R www-data:www-data /var/www/html/owncloud/ ```
+``` do chmod -R 755 /var/www/html/owncloud/ ```
+
+Seguidament passarem a configurar l'Apache
+
+``` sudonano /etc/apache2/sites-available/owncloud.conf
 Debemos dejar un fichero como el siguiente, pero cambiando el ServerName y el ServerAlias por los nombres y alias de nuestro propio dominio.
 
 Instalación owncloud

@@ -106,10 +106,11 @@ Habilitem owncloud y el módul rewrite:
 
 ``` sudo a2enmod mime```
 
-Reiniciamos Apache:
+Seguidament haurem de reiniciar Apache:
 
-sudo service Apache2 restart
-A partir de este momento podemos acceder a owncloud desde el navegador para ello debemos introducir nuestra IP seguida de "/owncloud" en el mismo, por ejemplo si nuestra IP es 172.31.84.197 pondremos en el navegador 172.31.84.197/owncloud y podremos acceder al servicio.
+``` sudo service Apache2 restart ```
+
+## A partir d'aquest moment podem accedir a owncloud desde el navegador per a fer-ho haurem d'introduir la nostra IP seguida de "/owncloud" amb el mateix, per exemple si la nostra IP es 172.31.84.197 posarem al navegador 172.31.84.197/owncloud i podrem accedir al servici.
 
 Ya en el navegador creamos una cuenta de administración y ponemos los datos de MariaDB que hemos configurado anteriormente.
 

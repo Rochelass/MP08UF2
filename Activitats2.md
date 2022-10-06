@@ -99,9 +99,13 @@ Habilitem owncloud y el módul rewrite:
 ``` sudo a2enmod rewrite ```
 
 ``` sudo a2enmod headers ```
-sudo a2enmod env
-sudo a2enmod dir
-sudo a2enmod mime
+
+``` sudo a2enmod env ```
+
+``` sudo a2enmod dir```
+
+``` sudo a2enmod mime```
+
 Reiniciamos Apache:
 
 sudo service Apache2 restart

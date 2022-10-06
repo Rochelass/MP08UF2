@@ -110,7 +110,7 @@ Seguidament haurem de reiniciar Apache:
 
 ``` sudo service Apache2 restart ```
 
-## A partir d'aquest moment podem accedir a owncloud desde el navegador per a fer-ho haurem d'introduir la nostra IP seguida de "/owncloud" amb el mateix, per exemple si la nostra IP es 172.31.84.197 posarem al navegador 172.31.84.197/owncloud i podrem accedir al servici.
+### A partir d'aquest moment podem accedir a owncloud desde el navegador per a fer-ho haurem d'introduir la nostra IP seguida de "/owncloud" amb el mateix, per exemple si la nostra IP es 172.31.84.197 posarem al navegador 172.31.84.197/owncloud i podrem accedir al servici.
 
 Ya en el navegador creamos una cuenta de administración y ponemos los datos de MariaDB que hemos configurado anteriormente.
 

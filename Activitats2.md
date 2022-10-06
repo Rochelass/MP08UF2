@@ -110,25 +110,26 @@ Seguidament haurem de reiniciar Apache:
 
 ``` sudo service Apache2 restart ```
 
-### A partir d'aquest moment podem accedir a owncloud desde el navegador per a fer-ho haurem d'introduir la nostra IP seguida de "/owncloud" amb el mateix, per exemple si la nostra IP es 172.31.84.197 posarem al navegador 172.31.84.197/owncloud i podrem accedir al servici.
+A partir d'aquest moment podem accedir a owncloud desde el navegador per a fer-ho haurem d'introduir la nostra IP seguida de "/owncloud" amb el mateix, per exemple si la nostra IP es 172.31.84.197 posarem al navegador 172.31.84.197/owncloud i podrem accedir al servici.
 
-Ya en el navegador creamos una cuenta de administración y ponemos los datos de MariaDB que hemos configurado anteriormente.
+Llavors al navegador creem una cuenta d'administració i posem les dades de MariaDB que hem configurat anteriorment.
 
-Acceder a Owncloud desde fuera de nuestro equipo:
-Podemos acceder a nuestro owncloud desde la red local o desde Internet, para Internet deberás conocer la IP pública del equipo o del router bajo el que está.
+### Accedir a Owncloud desde l'exterior del nostre equip
 
-Acceder desde LAN
+Podem accedir al nostre owncloud des de la xarxa local o des d'Internet, per a Internet hauràs de conèixer la IP pública de l'equip o de l'encaminador sota el que està.estro owncloud desde la red local o desde Internet, para Internet deberás conocer la IP pública del equipo o del router bajo el que está.
 
-Para acceder desde LAN deberemos indicar en el fichero de cconfiguración de owncloud la IP del equipo donde se aloja:
+### Accedir desde LAN
 
-Buscamos el fichero config.php y lo editamos.
+Per accedir des de LAN haurem d'indicar al fitxer de configuració d'owncloud la IP de l'equip on s'allotja:
 
-En el campo trusted domains añadimos la IP del equipo que hace de servidor.
+Busquem el ficher config.php y l'editem.
 
-Quedaría una cosa así:
+Al camp trusted domains afegim la IP de l'equip que fa de servidor.
 
-Instalación owncloud
+Quedaría una cosa així:
 
-Donde la IP sería la de nuestro equipo servidor en vez de 192.168.1.133.
+Instalació owncloud:
 
-Ahora ya podríamos acceder a Owncloud desde cualquier equipo en la misma red.
+On la IP seria la del nostre equip servidor en comptes de 192.168.1.133.
+
+Ara ja podríem accedir a Owncloud des de qualsevol equip a la mateixa xarxa.

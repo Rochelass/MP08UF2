@@ -20,6 +20,7 @@ Seguidament lo que haurem de fer serà desactivar el llistat de directoris del s
 Instalarem MariaDB:
 
 ![Selecció_140.png](Selecció_140.png)
+
 ``` sudo apt-get install mariadb-server mariadb-client -y ```
 
 I configurem la instalació:

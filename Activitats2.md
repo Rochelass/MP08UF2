@@ -150,8 +150,6 @@ Seguidament haurem de reiniciar Apache:
 
 ``` sudo service Apache2 restart ```
 
-A partir d'aquest moment podem accedir a owncloud desde el navegador per a fer-ho haurem d'introduir la nostra IP seguida de "/owncloud" amb el mateix, per exemple si la nostra IP es 172.31.84.197 posarem al navegador 172.31.84.197/owncloud i podrem accedir al servici.
-
 Llavors al navegador creem una cuenta d'administració i posem les dades de MariaDB que hem configurat anteriorment.
 
 ### Accedir a Owncloud desde l'exterior del nostre equip
@@ -170,6 +168,6 @@ Quedaría una cosa així:
 
 Instalació owncloud:
 
-On la IP seria la del nostre equip servidor en comptes de 192.168.1.133.
-
 Ara ja podríem accedir a Owncloud des de qualsevol equip a la mateixa xarxa.
+
+![Selecció_165.png](Selecció_165.png)

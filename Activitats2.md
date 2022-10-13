@@ -25,15 +25,21 @@ Instalarem MariaDB:
 
 I configurem la instalació:
 
+![Selecció_141.png](Selecció_141.png)
+
 ``` sudo mysql_secure_installation ```
 
 Per últim reiniciem el servidor MariaDB.
+
+![Selecció_142.png](Selecció_142.png)
 
 ``` sudo systemctl restart mariadb.service` o `sudo service mariadb.service restart ```
 
 Crear la base de dades de owncloud:
 
 Entrarem en MariaDB:
+
+![Selecció_143.png](Selecció_143.png)
 
 ``` sudo mysql -u root -p ```
 

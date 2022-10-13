@@ -45,25 +45,39 @@ Entrarem en MariaDB:
 
 Creem la base de dades:
 
+![Selecció_146.png](Selecció_146.png)
+
 ``` CREATE DATABASE owncloud; ```
 
 Creem un usuari anomenat ownclouduser amb una contrasenya que podría ser Admin1234.
+
+![Selecció_147.png](Selecció_148.png)
 
 ``` CREATE USER 'ownclouduser'@'localhost' IDENTIFIED BY 'Admin1234'; ```
 
 Li donem acces al usuari a la base de dades creada:
 
+![Selecció_149.png](Selecció_149.png)
+
 ``` GRANT ALL ON owncloud.* TO 'ownclouduser'@'localhost' IDENTIFIED BY 'Admin1234' WITH GRANT OPTION; ```
 
 Apliquem els canvios i sortim:
 
+![Selecció_150.png](Selecció_150.png)
+
 ``` FLUSH PRIVILEGES; ```
+
+![Selecció_151.png](Selecció_151.png)
 
 ``` EXIT; ```
 
 Per a contiunar haurem d'instalar PHP i els seus móduls necessaris:
 
+![Selecció_152.png](Selecció_152.png)
+
 ``` sudo apt-get install software-properties-common -y ```
+
+![Selecció_153.png](Selecció_153.png)
 
 ``` sudo add-apt-repository ppa:ondrej/php ```
 
@@ -73,9 +87,13 @@ Seguidament actualitzarem els paquets amb el repositori afegit:
 
 Seguidament haurem d'instalamos PHP i els móduls necessaris:
 
+![Selecció_154.png](Selecció_154.png)
+
 ``` sudo apt install php7.4 libapache2-mod-php7.4 php7.4-common php7.4-mbstring php7.4-xmlrpc php7.4-soap php7.4-apcu php7.4-smbclient php7.4-ldap php7.4-redis php7.4-gd php7.4-xml php7.4-intl php7.4-json php7.4-imagick php7.4-mysql php7.4-cli php7.4-mcrypt php7.4-ldap php7.4-zip php7.4-curl -y ```
 
 Després de la instalació editarem el ficher php.ini i cambiarem alguns valors:
+
+![Selecció_155.png](Selecció_155.png)
 
 ``` sudo nano /etc/php/7.1/apache2/php.ini ```
 
@@ -90,20 +108,29 @@ Descarguem la última versió del programma y descomprimim els fichers, ademés 
 ``` unzip owncloud-10.0.8.zip ```
 ``` sudo mv owncloud /var/www/html/owncloud/ ```
 
+![Selecció_157.png](Selecció_157.png)
+
 Seguidament canviem el propietari i els permisos dels directoris d'owncloud. www-data per a que es puguin usar Apache, 755 per a que es puguin executar i llegir cualsevol usuari de Linux:
+
+![Selecció_158.png](Selecció_158.png)
+![Selecció_159.png](Selecció_159.png)
 
 ``` sudo chown -R www-data:www-data /var/www/html/owncloud/ ```
 ``` do chmod -R 755 /var/www/html/owncloud/ ```
 
 Seguidament passarem a configurar l'Apache
 
-``` sudonano /etc/apache2/sites-available/owncloud.conf ```
+![Selecció_163.png](Selecció_163.png)
+
+``` sudo nano /etc/apache2/sites-available/owncloud.conf ```
 
 Haurem de deixar un ficher com el següent, pero canviem el ServerName i el ServerAlies per los noms i alies del nostre propi dominio.
 
 Instalació owncloud
 
 Habilitem owncloud y el módul rewrite:
+
+![Selecció_162.png](Selecció_162.png)
 
 ``` sudo a2ensite owncloud.conf ```
 
@@ -118,6 +145,8 @@ Habilitem owncloud y el módul rewrite:
 ``` sudo a2enmod mime```
 
 Seguidament haurem de reiniciar Apache:
+
+![Selecció_164.png](Selecció_164.png)
 
 ``` sudo service Apache2 restart ```
 

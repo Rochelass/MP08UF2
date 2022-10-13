@@ -31,7 +31,7 @@ I configurem la instalació:
 
 Per últim reiniciem el servidor MariaDB.
 
-![Selecció_142.png](Selecció_142.png)
+![Selecció_142.png](Selecció_144.png)
 
 ``` sudo systemctl restart mariadb.service` o `sudo service mariadb.service restart ```
 

@@ -39,7 +39,7 @@ Crear la base de dades de owncloud:
 
 Entrarem en MariaDB:
 
-![Selecció_143.png](Selecció_143.png)
+![Selecció_143.png](Selecció_144.png)
 
 ``` sudo mysql -u root -p ```
 

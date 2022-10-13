@@ -25,7 +25,7 @@ Instalarem MariaDB:
 
 I configurem la instalació:
 
-![Selecció_141.png](Selecció_141.png)
+![Selecció_142.png](Selecció_142.png)
 
 ``` sudo mysql_secure_installation ```
 

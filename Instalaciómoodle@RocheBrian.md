@@ -56,4 +56,25 @@ Canviarem els permisos
 
 ![image](https://user-images.githubusercontent.com/104194787/203831808-84422c65-2502-411d-9fff-c27b04f69ca8.png)
 
+Entrarem al directori de /home, crearem la carpeta "moodledata" i li afegirem els permisos.
+
+![image](https://user-images.githubusercontent.com/104194787/203832227-d41d9beb-fda7-4f40-a375-017bd0877bd1.png)
+
+Seguidament accedirem a la base de dades amb el mode de root.
+
+![image](https://user-images.githubusercontent.com/104194787/203832884-0179948d-fc81-4a53-ac97-1518934891d6.png)
+
+Ara crearem l'usuari de "moodlemanager" dins de la base de dades.
+
+![image](https://user-images.githubusercontent.com/104194787/203833375-839405b2-bdd1-4905-b358-e7c0e2f3c010.png)
+
+Seguidament lo que haurem de fer serà crear la base de dades de moodle
+
+![image](https://user-images.githubusercontent.com/104194787/203833463-d4029bc7-ca23-4a4c-9ece-af1f3857dbb6.png)
+
+Ara li haurem de donar els permisos al usuari
+
+![image](https://user-images.githubusercontent.com/104194787/203833718-e9842ea8-348f-499f-9406-725b5e63aed5.png)
+
+![image](https://user-images.githubusercontent.com/104194787/203833848-a9a2d6e5-829b-4434-afe1-6f1153eaf0e6.png)
 

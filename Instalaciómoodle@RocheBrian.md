@@ -22,9 +22,11 @@ Comprovem que podem entrar a mariadb
 
 ![image](https://user-images.githubusercontent.com/104194787/203829505-85769915-2306-4846-9830-08a7491055e7.png)
 
-Seguidament inst·lalarem el php
+Seguidament inst·lalarem el php7.3
 
-![image](https://user-images.githubusercontent.com/104194787/203829742-9f4cac56-0b35-421b-8af8-48608ad233c9.png)
+![image](https://user-images.githubusercontent.com/104194787/204018246-de9728ee-07d8-4fed-9d9a-93c347c49cda.png)
+
+![image](https://user-images.githubusercontent.com/104194787/204019427-4269c1b4-e237-4e1a-b653-1b36c143ba54.png)
 
 Llavors un cop instal·lat editarem el fitxer per a que es mostre index.php a canvi de index.html.
 
@@ -77,4 +79,8 @@ Ara li haurem de donar els permisos al usuari
 ![image](https://user-images.githubusercontent.com/104194787/203833718-e9842ea8-348f-499f-9406-725b5e63aed5.png)
 
 ![image](https://user-images.githubusercontent.com/104194787/203833848-a9a2d6e5-829b-4434-afe1-6f1153eaf0e6.png)
+
+Seguidament entrarem al buscador i posarem (la nostra ip)/moodle
+
+![image](https://user-images.githubusercontent.com/104194787/204021266-7f9c42f6-9c41-4564-ad4a-031758dd3fc6.png)
 
